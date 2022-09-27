@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carbon
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -206,6 +210,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 12.011
       objectReference: {fileID: 0}
+    - target: {fileID: 9002905493837852726, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28f37961d9eee8b40b027371321bc66d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
 --- !u!4 &2387426 stripped
@@ -494,6 +502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chlorine
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -566,6 +578,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 35.45
       objectReference: {fileID: 0}
+    - target: {fileID: 9002905493837852726, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28f37961d9eee8b40b027371321bc66d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
 --- !u!4 &77692265 stripped
@@ -1146,7 +1162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.104
+      value: -5.142
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1553,6 +1569,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sodium
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -1571,7 +1591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.104
+      value: -5.142
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2408,6 +2428,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sulfur
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -2480,6 +2504,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 32.06
       objectReference: {fileID: 0}
+    - target: {fileID: 9002905493837852726, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28f37961d9eee8b40b027371321bc66d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
 --- !u!4 &438541749 stripped
@@ -2678,6 +2706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flourine
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -2750,6 +2782,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 18.998
       objectReference: {fileID: 0}
+    - target: {fileID: 9002905493837852726, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28f37961d9eee8b40b027371321bc66d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
 --- !u!4 &453213881 stripped
@@ -2857,6 +2893,10 @@ PrefabInstance:
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Neon
+      objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
@@ -3218,6 +3258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Potassium
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -3236,7 +3280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.104
+      value: -5.142
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4556,6 +4600,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boron
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -4628,6 +4676,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 10.81
       objectReference: {fileID: 0}
+    - target: {fileID: 9002905493837852726, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28f37961d9eee8b40b027371321bc66d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
 --- !u!4 &851501839 stripped
@@ -4826,6 +4878,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Magnesium
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -4915,6 +4971,10 @@ PrefabInstance:
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Calcium
+      objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
@@ -5386,6 +5446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Oxygen
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -5458,6 +5522,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 9002905493837852726, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28f37961d9eee8b40b027371321bc66d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
 --- !u!4 &982849436 stripped
@@ -6163,6 +6231,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 78.971
       objectReference: {fileID: 0}
+    - target: {fileID: 9002905493837852726, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28f37961d9eee8b40b027371321bc66d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
 --- !u!4 &1049151488 stripped
@@ -6271,6 +6343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Helium
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6360,6 +6436,10 @@ PrefabInstance:
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Argon
+      objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
@@ -7592,6 +7672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silicon
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -7664,6 +7748,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 28.085
       objectReference: {fileID: 0}
+    - target: {fileID: 9002905493837852726, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28f37961d9eee8b40b027371321bc66d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
 --- !u!4 &1407009872 stripped
@@ -8312,6 +8400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Phosphorus
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -8384,6 +8476,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 30.974
       objectReference: {fileID: 0}
+    - target: {fileID: 9002905493837852726, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28f37961d9eee8b40b027371321bc66d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
 --- !u!4 &1552983251 stripped
@@ -8492,6 +8588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lithium
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -8510,7 +8610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.104
+      value: -5.142
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8658,6 +8758,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 78.971
       objectReference: {fileID: 0}
+    - target: {fileID: 9002905493837852726, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28f37961d9eee8b40b027371321bc66d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
 --- !u!4 &1583522158 stripped
@@ -8766,6 +8870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nitrogen
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -8838,6 +8946,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 14.007
       objectReference: {fileID: 0}
+    - target: {fileID: 9002905493837852726, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28f37961d9eee8b40b027371321bc66d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
 --- !u!4 &1616274790 stripped
@@ -8860,6 +8972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hydrogen
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -8878,7 +8994,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.104
+      value: -5.142
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8954,7 +9070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Color.rgba
-      value: 4278190080
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3518975563580451681, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_text
@@ -9176,7 +9292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.104
+      value: -5.142
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9986,7 +10102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.732801
+      value: -3.733
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9994,7 +10110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.029
+      value: -0.014
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10346,7 +10462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.104
+      value: -5.142
       objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11123,6 +11239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluminum
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -11573,6 +11693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beryllium
       objectReference: {fileID: 0}
+    - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 4962303452576222, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -11645,6 +11769,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 9.0122
       objectReference: {fileID: 0}
+    - target: {fileID: 9002905493837852726, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c61ca384260418b4884f5a0774d9b872, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
 --- !u!4 &2132195603 stripped
