@@ -83,6 +83,7 @@ public class LaserPointer : OVRCursor
 
     private void LateUpdate()
     {
+      
         lineRenderer.SetPosition(0, _startPoint);
         if (_hitTarget)
         {
