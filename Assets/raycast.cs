@@ -5,7 +5,11 @@ using TMPro;
 
 public class raycast : MonoBehaviour
 {
-    public TextMeshProUGUI test;
+    public GameObject test;
+    public GameObject look;
+    public GameObject elements;
+
+
     // Update is called once per frame
     void Update()
     {
@@ -19,15 +23,28 @@ public class raycast : MonoBehaviour
 
             if (hit.collider.gameObject.CompareTag("Element"))
             {
-                //Debug.Log("Hit Element");
+                Debug.Log("Hit Element");
 
                 if (OVRInput.Get(OVRInput.Button.One))
                 {
-                    //Debug.Log("Pressed A");
-                    test.gameObject.SetActive(true);
+                    Debug.Log("Pressed A");
+                    test.SetActive(true);
+                    look.SetActive(true);
+                    elements.SetActive(false);
                 }
+
                 //test.enabled = true;
             }
+
+            if (hit.collider.gameObject.CompareTag("continueButton"))
+                    {
+                        if(OVRInput.Get(OVRInput.Button.One))
+                        {
+                            look.SetActive(false);
+                            test.SetActive(false);
+                            elements.SetActive(true);
+                        }
+                    }
             /*else
             {
                 Debug.Log("Hit something");
