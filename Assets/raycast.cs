@@ -15,14 +15,15 @@ public class raycast : MonoBehaviour
             Debug.DrawRay(this.transform.position, this.transform.TransformDirection(Vector3.forward) * 500 * Time.deltaTime, Color.yellow);
             //Debug.Log("Did Hit");
 
-            if (hit.collider.CompareTag("Element"))
+            if (hit.collider.gameObject.CompareTag("Element"))
             {
                 Debug.Log("Hit Element");
             }
-            else
+            /*else
             {
                 Debug.Log("Hit something");
             }
+            */
         }
 
         else

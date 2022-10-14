@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Carbon
@@ -205,6 +209,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -510,6 +518,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Chlorine
@@ -585,6 +597,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -1617,6 +1633,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Sodium
@@ -1692,6 +1712,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -2512,6 +2536,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Sulfur
@@ -2587,6 +2615,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -2798,6 +2830,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Flourine
@@ -2873,6 +2909,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -2990,6 +3030,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Neon
@@ -3065,6 +3109,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -3370,6 +3418,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Potassium
@@ -3445,6 +3497,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -4764,6 +4820,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Boron
@@ -4839,6 +4899,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -5050,6 +5114,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Magnesium
@@ -5126,6 +5194,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 24.305
@@ -5148,6 +5220,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Calcium
@@ -5223,6 +5299,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -5634,6 +5714,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Oxygen
@@ -5709,6 +5793,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -6555,6 +6643,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Helium
@@ -6631,6 +6723,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 4.0026
@@ -6653,6 +6749,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Argon
@@ -6728,6 +6828,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -7940,6 +8044,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Silicon
@@ -8015,6 +8123,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -8696,6 +8808,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Phosphorus
@@ -8771,6 +8887,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -8888,6 +9008,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Lithium
@@ -8963,6 +9087,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -9174,6 +9302,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Nitrogen
@@ -9250,6 +9382,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 14.007
@@ -9275,6 +9411,10 @@ PrefabInstance:
     - target: {fileID: 1165611468847700, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
@@ -9383,6 +9523,10 @@ PrefabInstance:
     - target: {fileID: 3518975563580451681, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -11640,6 +11784,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Aluminum
@@ -11715,6 +11863,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
@@ -12114,6 +12266,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956800988}
     m_Modifications:
+    - target: {fileID: 1836423756577020, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1877953240409378, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Name
       value: Beryllium
@@ -12189,6 +12345,10 @@ PrefabInstance:
     - target: {fileID: 102717744687535348, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607242727099485277, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8015259573740550073, guid: 121cfb8a10aba8949adaa1c6239b8e51, type: 3}
       propertyPath: m_Text
