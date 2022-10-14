@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class raycast : MonoBehaviour
 {
+    public TextMeshProUGUI test;
     // Update is called once per frame
     void Update()
     {
@@ -17,7 +19,14 @@ public class raycast : MonoBehaviour
 
             if (hit.collider.gameObject.CompareTag("Element"))
             {
-                Debug.Log("Hit Element");
+                //Debug.Log("Hit Element");
+
+                if (OVRInput.Get(OVRInput.Button.One))
+                {
+                    //Debug.Log("Pressed A");
+                    test.gameObject.SetActive(true);
+                }
+                //test.enabled = true;
             }
             /*else
             {
@@ -29,7 +38,7 @@ public class raycast : MonoBehaviour
         else
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 500 * Time.deltaTime, Color.white);
-            Debug.Log("Did not Hit");
+            //Debug.Log("Did not Hit");
         }
     }
 }
