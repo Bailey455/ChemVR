@@ -51,11 +51,5 @@ public class raycast : MonoBehaviour
             }
             */
         }
-
-        else
-        {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 500 * Time.deltaTime, Color.white);
-            //Debug.Log("Did not Hit");
-        }
     }
 }
