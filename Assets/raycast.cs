@@ -13,8 +13,7 @@ public class raycast : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RaycastHit hit;
-        
+        RaycastHit hit; 
 
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward) * 500 * Time.deltaTime, out hit, 1000))
         {
@@ -45,11 +44,6 @@ public class raycast : MonoBehaviour
                             elements.SetActive(true);
                         }
                     }
-            /*else
-            {
-                Debug.Log("Hit something");
-            }
-            */
         }
     }
 }
