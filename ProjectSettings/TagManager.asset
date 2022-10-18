@@ -7,6 +7,7 @@ TagManager:
   - Element
   - continueButton
   - group1
+  - back
   layers:
   - Default
   - TransparentFX

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class raycast : MonoBehaviour
 {
@@ -44,6 +45,16 @@ public class raycast : MonoBehaviour
                             elements.SetActive(true);
                         }
                     }
+        }
+
+        if (hit.collider.gameObject.CompareTag("group1") && OVRInput.Get(OVRInput.Button.One))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+
+         if (hit.collider.gameObject.CompareTag("back") && OVRInput.Get(OVRInput.Button.One))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
     }
 }

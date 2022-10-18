@@ -1,10 +1,10 @@
 /************************************************************************************
 
-Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.
+Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.  
 
-See SampleFramework license.txt for license terms.  Unless required by applicable law
-or agreed to in writing, the sample code is provided “AS IS” WITHOUT WARRANTIES OR
-CONDITIONS OF ANY KIND, either express or implied.  See the license for specific
+See SampleFramework license.txt for license terms.  Unless required by applicable law 
+or agreed to in writing, the sample code is provided “AS IS” WITHOUT WARRANTIES OR 
+CONDITIONS OF ANY KIND, either express or implied.  See the license for specific 
 language governing permissions and limitations under the license.
 
 ************************************************************************************/
@@ -15,7 +15,6 @@ using UnityEngine.UI;
 #if UNITY_EDITOR
 using UnityEngine.SceneManagement;
 #endif
-using TMPro;
 
 public class DebugUIBuilder : MonoBehaviour
 {
@@ -24,7 +23,7 @@ public class DebugUIBuilder : MonoBehaviour
   // fix bug where it seems to appear at a random offset
   // support remove
 
-  // Convenience consts for clarity when using multiple debug panes.
+  // Convenience consts for clarity when using multiple debug panes. 
   // But note that you can an arbitrary number of panes if you add them in the inspector.
   public const int DEBUG_PANE_CENTER = 0;
   public const int DEBUG_PANE_RIGHT = 1;
@@ -32,10 +31,6 @@ public class DebugUIBuilder : MonoBehaviour
 
   [SerializeField]
   private RectTransform buttonPrefab = null;
-
-  [SerializeField]
-  private RectTransform[] additionalButtonPrefab = null;
-
   [SerializeField]
   private RectTransform labelPrefab = null;
   [SerializeField]
@@ -70,8 +65,8 @@ public class DebugUIBuilder : MonoBehaviour
   public delegate bool ActiveUpdate();
 
   private const float elementSpacing = 16.0f;
-  public const float marginH = 16.0f;
-  public const float marginV = 16.0f;
+  private const float marginH = 16.0f;
+  private const float marginV = 16.0f;
   private Vector2[] insertPositions;
   private List<RectTransform>[] insertedElements;
   private Vector3 menuOffset;
@@ -81,7 +76,6 @@ public class DebugUIBuilder : MonoBehaviour
   LineRenderer lr;
 
   public LaserPointer.LaserBeamBehavior laserBeamBehavior;
-  public bool isHorizontal = false;
 
   public void Awake()
   {
@@ -190,7 +184,7 @@ public class DebugUIBuilder : MonoBehaviour
     }
   }
 
-  // Currently a slow brute-force method that lays out every element.
+  // Currently a slow brute-force method that lays out every element. 
   // As this is intended as a debug UI, it might be fine, but there are many simple optimizations we can make.
   private void Relayout()
   {
@@ -206,14 +200,7 @@ public class DebugUIBuilder : MonoBehaviour
       {
         RectTransform r = elems[elemIdx];
         r.anchoredPosition = new Vector2(x, y);
-
-        if (isHorizontal){
-          x += (r.rect.width + elementSpacing);
-        }
-        else
-        {
-          y -= (r.rect.height + elementSpacing);
-        }
+        y -= (r.rect.height + elementSpacing);
         maxWidth = Mathf.Max(r.rect.width + 2 * marginH, maxWidth);
       }
       canvasRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, maxWidth);
@@ -237,24 +224,12 @@ public class DebugUIBuilder : MonoBehaviour
     }
   }
 
-  public RectTransform AddButton(string label, OnClick handler = null, int buttonIndex = -1, int targetCanvas = 0, bool highResolutionText = false)
+  public RectTransform AddButton(string label, OnClick handler, int targetCanvas = 0)
   {
-    RectTransform buttonRT = null;
-    if(buttonIndex == -1)
-        buttonRT = GameObject.Instantiate(buttonPrefab).GetComponent<RectTransform>();
-    else
-        buttonRT = GameObject.Instantiate(additionalButtonPrefab[buttonIndex]).GetComponent<RectTransform>();
-
+    RectTransform buttonRT = GameObject.Instantiate(buttonPrefab).GetComponent<RectTransform>();
     Button button = buttonRT.GetComponentInChildren<Button>();
-    if(handler != null)
-      button.onClick.AddListener(delegate { handler(); });
-
-    if(highResolutionText){
-      ((TextMeshProUGUI)(buttonRT.GetComponentsInChildren(typeof(TextMeshProUGUI), true)[0])).text = label;
-    }
-    else{
-      ((Text)(buttonRT.GetComponentsInChildren(typeof(Text), true)[0])).text = label;
-    }
+    button.onClick.AddListener(delegate { handler(); });
+    ((Text)(buttonRT.GetComponentsInChildren(typeof(Text), true)[0])).text = label;
     AddRect(buttonRT, targetCanvas);
     return buttonRT;
   }

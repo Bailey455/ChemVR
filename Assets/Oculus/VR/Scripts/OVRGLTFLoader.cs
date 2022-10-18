@@ -96,7 +96,7 @@ public class OVRGLTFLoader
 		m_glbStream = new MemoryStream(data, 0, data.Length, false, true);
 	}
 
-	public OVRGLTFScene LoadGLB(bool loadMips = true)
+	public OVRGLTFScene LoadGLB()
 	{
 		OVRGLTFScene scene = new OVRGLTFScene();
 		m_Nodes = new List<GameObject>();
@@ -124,7 +124,7 @@ public class OVRGLTFLoader
 					m_Shader = Shader.Find("Legacy Shaders/Diffuse");
 				}
 
-				LoadGLTF(loadMips);
+				LoadGLTF();
 			}
 		}
 		m_glbStream.Close();
@@ -207,7 +207,7 @@ public class OVRGLTFLoader
 		return true;
 	}
 
-	private void LoadGLTF(bool loadMips)
+	private void LoadGLTF()
 	{
 		if (m_jsonData == null)
 		{
@@ -235,11 +235,11 @@ public class OVRGLTFLoader
 		for (int i = 0; i < rootNodes.Count; i++)
 		{
 			int nodeId = rootNodes[i].AsInt;
-			ProcessNode(m_jsonData["nodes"][nodeId], nodeId, loadMips);
+			ProcessNode(m_jsonData["nodes"][nodeId], nodeId);
 		}
 	}
 
-	private void ProcessNode(JSONNode node, int nodeId, bool loadMips)
+	private void ProcessNode(JSONNode node, int nodeId)
 	{
 		// Process the child nodes first
 		var childNodes = node["children"];
@@ -249,14 +249,14 @@ public class OVRGLTFLoader
 			{
 				int childId = childNodes[i].AsInt;
 				m_Nodes[childId].transform.SetParent(m_Nodes[nodeId].transform);
-				ProcessNode(m_jsonData["nodes"][childId], childId, loadMips);
+				ProcessNode(m_jsonData["nodes"][childId], childId);
 			}
 		}
 
 		if (node["mesh"] != null)
 		{
 			var meshId = node["mesh"].AsInt;
-			OVRMeshData meshData = ProcessMesh(m_jsonData["meshes"][meshId], loadMips);
+			OVRMeshData meshData = ProcessMesh(m_jsonData["meshes"][meshId]);
 
 			if (node["skin"] != null)
 			{
@@ -306,7 +306,7 @@ public class OVRGLTFLoader
 		}
 	}
 
-	private OVRMeshData ProcessMesh(JSONNode meshNode, bool loadMips)
+	private OVRMeshData ProcessMesh(JSONNode meshNode)
 	{
 		OVRMeshData meshData = new OVRMeshData();
 
@@ -475,7 +475,7 @@ public class OVRGLTFLoader
 		if (transcodeTask != null)
 		{
 			transcodeTask.Wait();
-			meshData.material = CreateUnityMaterial(matData, loadMips);
+			meshData.material = CreateUnityMaterial(matData);
 		}
 		return meshData;
 	}
@@ -604,14 +604,14 @@ public class OVRGLTFLoader
 		}
 	}
 
-	private Material CreateUnityMaterial(OVRMaterialData matData, bool loadMips)
+	private Material CreateUnityMaterial(OVRMaterialData matData)
 	{
 		Material mat = new Material(matData.shader);
 
 		if (matData.texture.format == OVRTextureFormat.KTX2)
 		{
 			Texture2D texture;
-			texture = new Texture2D(matData.texture.width, matData.texture.height, matData.texture.transcodedFormat, loadMips);
+			texture = new Texture2D(matData.texture.width, matData.texture.height, matData.texture.transcodedFormat, true);
 			texture.LoadRawTextureData(matData.texture.data);
 			texture.Apply(false, true);
 			mat.mainTexture = texture;
