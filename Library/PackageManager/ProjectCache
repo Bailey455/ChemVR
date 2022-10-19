@@ -3222,11 +3222,13 @@ m_PackageAssets:
         - 1.0.6
         - 1.1.0
         - 1.1.1
+        - 1.1.2
         compatible:
         - 1.0.6
         - 1.1.0
         - 1.1.1
-        verified: 1.1.1
+        - 1.1.2
+        verified: 1.1.2
       dependencies: []
       resolvedDependencies: []
       keywords:

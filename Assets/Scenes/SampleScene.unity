@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 32159119}
   m_Layer: 0
   m_Name: Alkali Metal
-  m_TagString: Untagged
+  m_TagString: alkalimetal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -724,7 +724,7 @@ GameObject:
   - component: {fileID: 85789555}
   m_Layer: 0
   m_Name: Noble Gas
-  m_TagString: Untagged
+  m_TagString: noblegas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9188,7 +9188,7 @@ GameObject:
   - component: {fileID: 781113873}
   m_Layer: 0
   m_Name: Lanthanide
-  m_TagString: Untagged
+  m_TagString: lanthanide
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10040,7 +10040,7 @@ GameObject:
   - component: {fileID: 894240043}
   m_Layer: 0
   m_Name: Transition Metal
-  m_TagString: Untagged
+  m_TagString: transitionmetal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11961,7 +11961,7 @@ GameObject:
   - component: {fileID: 989085419}
   m_Layer: 0
   m_Name: Actinide
-  m_TagString: Untagged
+  m_TagString: actinide
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13916,7 +13916,7 @@ GameObject:
   - component: {fileID: 1150521733}
   m_Layer: 0
   m_Name: Nonmetal
-  m_TagString: group1
+  m_TagString: nonmetal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14100,7 +14100,7 @@ GameObject:
   - component: {fileID: 1169106481}
   m_Layer: 0
   m_Name: Halogen
-  m_TagString: Untagged
+  m_TagString: halogen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18296,7 +18296,7 @@ GameObject:
   - component: {fileID: 1576272728}
   m_Layer: 0
   m_Name: Semimetal
-  m_TagString: Untagged
+  m_TagString: semimetal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20077,7 +20077,7 @@ GameObject:
   - component: {fileID: 1719218889}
   m_Layer: 0
   m_Name: Alkaline Earth
-  m_TagString: Untagged
+  m_TagString: alkaliearth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25943,7 +25943,7 @@ GameObject:
   - component: {fileID: 2114684242}
   m_Layer: 0
   m_Name: Basic Metal
-  m_TagString: Untagged
+  m_TagString: basicmetal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
