@@ -34,7 +34,7 @@ public class raycast : MonoBehaviour
                 }
             }
 
-            if (hit.collider.gameObject.CompareTag("continueButton"))
+            else if (hit.collider.gameObject.CompareTag("continueButton"))
                     {
                         if(OVRInput.Get(OVRInput.Button.One))
                         {
@@ -44,93 +44,90 @@ public class raycast : MonoBehaviour
                         }
                     }
 
-            if (hit.collider.gameObject.CompareTag("nonmetal") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("nonmetal") && OVRInput.Get(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
-
-            /*
-            if (hit.collider.gameObject.CompareTag("halogen") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("halogen") && OVRInput.Get(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
             }
-
-             if (hit.collider.gameObject.CompareTag("noblegas") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("noblegas") && OVRInput.Get(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
             }
 
-             if (hit.collider.gameObject.CompareTag("lanthanide") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("lanthanide") && OVRInput.Get(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
             }
-             if (hit.collider.gameObject.CompareTag("actinide") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("actinide") && OVRInput.Get(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
             }
-             if (hit.collider.gameObject.CompareTag("alkalimetal") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("alkalimetal") && OVRInput.Get(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
             }
-             if (hit.collider.gameObject.CompareTag("alkaliearth") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("alkaliearth") && OVRInput.Get(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 7);
             }
-             if (hit.collider.gameObject.CompareTag("transitionmetal") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("transitionmetal") && OVRInput.Get(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 8);
             }
-             if (hit.collider.gameObject.CompareTag("basicmetal") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("basicmetal") && OVRInput.Get(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 9);
             }
-             if (hit.collider.gameObject.CompareTag("semimetal") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("semimetal") && OVRInput.Get(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 10);
             }
-            */
 
-            if (hit.collider.gameObject.CompareTag("back") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("back") && OVRInput.Get(OVRInput.Button.One))
             {
-                /*
                     if(SceneManager.GetActiveScene().buildIndex == 1)
                     {
                         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
                     }
-                     if(SceneManager.GetActiveScene().buildIndex == 2)
+                    else if(SceneManager.GetActiveScene().buildIndex == 2)
                     {
                         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
                     }
-                     if(SceneManager.GetActiveScene().buildIndex == 3)
+                    else if(SceneManager.GetActiveScene().buildIndex == 3)
                     {
                         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
                     }
-                     if(SceneManager.GetActiveScene().buildIndex == 4)
+                    else if(SceneManager.GetActiveScene().buildIndex == 4)
                     {
                         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
-                    } if(SceneManager.GetActiveScene().buildIndex == 5)
+                    }
+                    else if(SceneManager.GetActiveScene().buildIndex == 5)
                     {
                         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
                     } 
-                    if(SceneManager.GetActiveScene().buildIndex == 6)
+                    else if(SceneManager.GetActiveScene().buildIndex == 6)
                     {
                         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 6);
                     }
-                     if(SceneManager.GetActiveScene().buildIndex == 7)
+                    else if(SceneManager.GetActiveScene().buildIndex == 7)
                     {
                         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 7);
                     }
-                     if(SceneManager.GetActiveScene().buildIndex == 8)
+                    else if(SceneManager.GetActiveScene().buildIndex == 8)
                     {
                         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 8);
                     }
-                     if(SceneManager.GetActiveScene().buildIndex == 9)
+                    else if(SceneManager.GetActiveScene().buildIndex == 9)
                     {
                         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 9);
                     }
-                */
-
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+                    else if(SceneManager.GetActiveScene().buildIndex == 10)
+                    {
+                        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 10);
+                    }
             }
         }
     }
