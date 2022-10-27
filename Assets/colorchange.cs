@@ -5,7 +5,7 @@ using UnityEngine;
 public class colorchanges : MonoBehaviour
 {
     //When the mouse hovers over the GameObject, it turns to this color (red)
-    Color m_colorchanges = Color.red;
+    Color m_colorchanges = Color.red; 
 
     //This stores the GameObject’s original color
     Color m_OriginalColor;
