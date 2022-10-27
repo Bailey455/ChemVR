@@ -103,7 +103,7 @@ public class raycast : MonoBehaviour
                     else if(SceneManager.GetActiveScene().buildIndex == 4)
                     {
                         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
-                    }
+                    } 
                     else if(SceneManager.GetActiveScene().buildIndex == 5)
                     {
                         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
