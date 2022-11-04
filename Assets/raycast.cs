@@ -24,7 +24,7 @@ public class raycast : MonoBehaviour
             if (hit.collider.gameObject.CompareTag("Element"))
             {
                 Debug.Log("Hit Element");
-
+ 
                 if (OVRInput.Get(OVRInput.Button.One))
                 {
                     Debug.Log("Pressed A");
