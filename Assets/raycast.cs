@@ -24,7 +24,7 @@ public class raycast : MonoBehaviour
             //checking for first 20 elements
             if (hit.collider.gameObject.CompareTag("Element"))
             {
-                Debug.Log("Hit Element");
+                //Debug.Log("Hit Element");
  
                 if (OVRInput.Get(OVRInput.Button.One))
                 {
@@ -50,6 +50,7 @@ public class raycast : MonoBehaviour
             else if (hit.collider.gameObject.CompareTag("exit"))
             {
                 Application.Quit();
+                //Debug.Log("hit exit button");
             }
 
             //going to the respectives scenes for the groups of elements
