@@ -21,6 +21,7 @@ public class raycast : MonoBehaviour
             Debug.DrawRay(this.transform.position, this.transform.TransformDirection(Vector3.forward) * 500 * Time.deltaTime, Color.yellow);
             //Debug.Log("Did Hit");
 
+            //checking for first 20 elements
             if (hit.collider.gameObject.CompareTag("Element"))
             {
                 Debug.Log("Hit Element");
@@ -34,6 +35,7 @@ public class raycast : MonoBehaviour
                 }
             }
 
+            //checking for continue buttons
             else if (hit.collider.gameObject.CompareTag("continueButton"))
                     {
                         if(OVRInput.Get(OVRInput.Button.One))
@@ -44,6 +46,13 @@ public class raycast : MonoBehaviour
                         }
                     }
 
+            //check for ending
+            else if (hit.collider.gameObject.CompareTag("exit"))
+            {
+                Application.Quit();
+            }
+
+            //going to the respectives scenes for the groups of elements
             else if (hit.collider.gameObject.CompareTag("nonmetal") && OVRInput.Get(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -86,6 +95,7 @@ public class raycast : MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 10);
             }
 
+            //returning to the home scene when the player presses back
             else if (hit.collider.gameObject.CompareTag("back") && OVRInput.Get(OVRInput.Button.One))
             {
                     if(SceneManager.GetActiveScene().buildIndex == 1)
@@ -130,5 +140,8 @@ public class raycast : MonoBehaviour
                     }
             }
         }
+
+        //incrementing the numbers for chemical equations
+
     }
 }

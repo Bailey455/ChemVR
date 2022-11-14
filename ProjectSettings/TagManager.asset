@@ -18,6 +18,7 @@ TagManager:
   - transitionmetal
   - basicmetal
   - semimetal
+  - exit
   layers:
   - Default
   - TransparentFX
