@@ -19,6 +19,14 @@ TagManager:
   - basicmetal
   - semimetal
   - exit
+  - up1
+  - up2
+  - up3
+  - up4
+  - down1
+  - down2
+  - down3
+  - down4
   layers:
   - Default
   - TransparentFX

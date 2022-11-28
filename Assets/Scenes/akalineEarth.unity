@@ -1216,6 +1216,10 @@ MonoBehaviour:
   test: {fileID: 0}
   look: {fileID: 0}
   elements: {fileID: 0}
+  num1Box: {fileID: 0}
+  num2Box: {fileID: 0}
+  num3Box: {fileID: 0}
+  num4Box: {fileID: 0}
 --- !u!1 &1172539784
 GameObject:
   m_ObjectHideFlags: 0
@@ -1376,6 +1380,10 @@ MonoBehaviour:
   test: {fileID: 0}
   look: {fileID: 0}
   elements: {fileID: 0}
+  num1Box: {fileID: 0}
+  num2Box: {fileID: 0}
+  num3Box: {fileID: 0}
+  num4Box: {fileID: 0}
 --- !u!1 &1208068133
 GameObject:
   m_ObjectHideFlags: 0
@@ -2055,14 +2063,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601414338}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 298.39, y: 824.16, z: 8.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1764718811}
   m_Father: {fileID: 0}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1619143903
 GameObject:
   m_ObjectHideFlags: 0

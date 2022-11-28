@@ -10,6 +10,24 @@ public class raycast : MonoBehaviour
     public GameObject look;
     public GameObject elements;
 
+    public GameObject num1Box;
+    public GameObject num2Box;
+    public GameObject num3Box;
+    public GameObject num4Box;
+
+    public static int num1;
+    private static int num2;
+    private static int num3;
+    private static int num4;
+
+    public void Start()
+    {
+        num1 = 0;
+        num2 = 0;
+        num3 = 0;
+        num4 = 0;
+
+    }
 
     // Update is called once per frame
     void Update()
@@ -140,9 +158,81 @@ public class raycast : MonoBehaviour
                         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 10);
                     }
             }
+
+
+            //checking up arrows for calculating chemical equations
+            else if (hit.collider.gameObject.CompareTag("up1") && OVRInput.GetDown(OVRInput.Button.One))
+            {
+                Debug.Log("found num1");
+                num1 += 1;
+                setText(num1Box, num1);
+            }
+            else if (hit.collider.gameObject.CompareTag("up2") && OVRInput.GetDown(OVRInput.Button.One))
+            {
+                Debug.Log("found num2");
+                num2 += 1;
+                setText(num2Box, num2);
+            }
+            else if (hit.collider.gameObject.CompareTag("up3") && OVRInput.GetDown(OVRInput.Button.One))
+            {
+                Debug.Log("found num3");
+                num3 += 1;
+                setText(num3Box, num3);
+            }
+            else if (hit.collider.gameObject.CompareTag("up4") && OVRInput.GetDown(OVRInput.Button.One))
+            {
+                Debug.Log("found num4");
+                num4 += 1;
+                setText(num4Box, num4);
+            }
+
+            //checking down arrows for calculating chemical equations
+            else if (hit.collider.gameObject.CompareTag("down1") && OVRInput.GetDown(OVRInput.Button.One))
+            {
+                Debug.Log("found num1");
+                if (num1 > 0)
+                {
+                    num1 -= 1;
+                    setText(num1Box, num1);
+                }
+                else
+                {
+                    num1 = 0;
+                    setText(num1Box, num1);
+                }
+            }
+            else if (hit.collider.gameObject.CompareTag("down2") && OVRInput.GetDown(OVRInput.Button.One))
+            {
+                Debug.Log("found num2");
+                num2 -= 1;
+                setText(num2Box, num2);
+            }
+            else if (hit.collider.gameObject.CompareTag("down3") && OVRInput.GetDown(OVRInput.Button.One))
+            {
+                Debug.Log("found num3");
+                num3 -= 1;
+                setText(num3Box, num3);
+            }
+            else if (hit.collider.gameObject.CompareTag("down4") && OVRInput.GetDown(OVRInput.Button.One))
+            {
+                Debug.Log("found num4");
+                num4 -= 1;
+                setText(num4Box, num4);
+            }
         }
 
+        //CHEMICAL EQUATIONS SECTION
         //incrementing the numbers for chemical equations
 
+         /*else if(hit.collider.gameObject.CompareTag("next_button") && OVRInput.GetDown(OVRInput.Button.One) && formulas.isCorrect == true)
+        {
+
+        }
+        */
+    }
+
+    void setText(GameObject obj, int num)
+    {
+        obj.GetComponent<TMP_Text>().text = num.ToString();
     }
 }
