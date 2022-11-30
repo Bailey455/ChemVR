@@ -186,34 +186,38 @@ public class raycast : MonoBehaviour
             //checking down arrows for calculating chemical equations
             else if (hit.collider.gameObject.CompareTag("down1") && OVRInput.GetDown(OVRInput.Button.One))
             {
-                Debug.Log("found num1");
                 if (num1 > 0)
-                {
                     num1 -= 1;
-                    setText(num1Box, num1);
-                }
                 else
-                {
                     num1 = 0;
-                    setText(num1Box, num1);
-                }
+                setText(num1Box, num1);
             }
             else if (hit.collider.gameObject.CompareTag("down2") && OVRInput.GetDown(OVRInput.Button.One))
             {
                 Debug.Log("found num2");
-                num2 -= 1;
+                if (num2 > 0)
+                    num2 -= 1;
+                else
+                    num2 = 0;
                 setText(num2Box, num2);
+                
             }
             else if (hit.collider.gameObject.CompareTag("down3") && OVRInput.GetDown(OVRInput.Button.One))
             {
                 Debug.Log("found num3");
-                num3 -= 1;
+                if (num3 > 0)
+                    num3 -= 1;
+                else
+                    num3 = 0;
                 setText(num3Box, num3);
             }
             else if (hit.collider.gameObject.CompareTag("down4") && OVRInput.GetDown(OVRInput.Button.One))
             {
                 Debug.Log("found num4");
-                num4 -= 1;
+                if(num4 > 0)
+                    num4 -= 1;
+                else
+                    num4 = 0;
                 setText(num4Box, num4);
             }
         }
