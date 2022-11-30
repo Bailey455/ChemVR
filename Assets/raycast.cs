@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class raycast : MonoBehaviour
 { 
     public GameObject test;
-    public GameObject look;
     public GameObject elements;
 
     public GameObject num1Box;
@@ -16,9 +15,9 @@ public class raycast : MonoBehaviour
     public GameObject num4Box;
 
     public static int num1;
-    private static int num2;
-    private static int num3;
-    private static int num4;
+    public static int num2;
+    public static int num3;
+    public static int num4;
 
     public void Start()
     {
@@ -44,11 +43,10 @@ public class raycast : MonoBehaviour
             {
                 //Debug.Log("Hit Element");
  
-                if (OVRInput.Get(OVRInput.Button.One))
+                if (OVRInput.GetDown(OVRInput.Button.One))
                 {
                     Debug.Log("Pressed A");
                     test.SetActive(true);
-                    look.SetActive(true);
                     elements.SetActive(false);
                 }
             }
@@ -56,9 +54,8 @@ public class raycast : MonoBehaviour
             //checking for continue buttons
             else if (hit.collider.gameObject.CompareTag("continueButton"))
                     {
-                        if(OVRInput.Get(OVRInput.Button.One))
+                        if(OVRInput.GetDown(OVRInput.Button.One))
                         {
-                            look.SetActive(false);
                             test.SetActive(false);
                             elements.SetActive(true);
                         }
@@ -72,50 +69,50 @@ public class raycast : MonoBehaviour
             }
 
             //going to the respectives scenes for the groups of elements
-            else if (hit.collider.gameObject.CompareTag("nonmetal") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("nonmetal") && OVRInput.GetDown(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
-            else if (hit.collider.gameObject.CompareTag("halogen") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("halogen") && OVRInput.GetDown(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
             }
-            else if (hit.collider.gameObject.CompareTag("noblegas") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("noblegas") && OVRInput.GetDown(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
             }
 
-            else if (hit.collider.gameObject.CompareTag("lanthanide") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("lanthanide") && OVRInput.GetDown(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
             }
-            else if (hit.collider.gameObject.CompareTag("actinide") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("actinide") && OVRInput.GetDown(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
             }
-            else if (hit.collider.gameObject.CompareTag("alkalimetal") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("alkalimetal") && OVRInput.GetDown(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
             }
-            else if (hit.collider.gameObject.CompareTag("alkaliearth") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("alkaliearth") && OVRInput.GetDown(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 7);
             }
-            else if (hit.collider.gameObject.CompareTag("transitionmetal") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("transitionmetal") && OVRInput.GetDown(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 8);
             }
-            else if (hit.collider.gameObject.CompareTag("basicmetal") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("basicmetal") && OVRInput.GetDown(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 9);
             }
-            else if (hit.collider.gameObject.CompareTag("semimetal") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("semimetal") && OVRInput.GetDown(OVRInput.Button.One))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 10);
             }
 
             //returning to the home scene when the player presses back
-            else if (hit.collider.gameObject.CompareTag("back") && OVRInput.Get(OVRInput.Button.One))
+            else if (hit.collider.gameObject.CompareTag("back") && OVRInput.GetDown(OVRInput.Button.One))
             {
                     if(SceneManager.GetActiveScene().buildIndex == 1)
                     {

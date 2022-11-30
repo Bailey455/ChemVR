@@ -27,6 +27,7 @@ TagManager:
   - down2
   - down3
   - down4
+  - next_button
   layers:
   - Default
   - TransparentFX
