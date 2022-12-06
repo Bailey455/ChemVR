@@ -15,11 +15,11 @@ public class formulas : MonoBehaviour
     private int correctNum3;
     private int correctNum4;
 
-    private int problemNum;
+    //private int problemNum;
     public static bool isCorrect;
 
 
-    void Start()
+    public void Start()
     {
         isCorrect = false;
 
@@ -37,21 +37,16 @@ public class formulas : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
+        //Debug.Log(raycast.num1);
         if(raycast.num1 == correctNum1 && raycast.num2 == correctNum2 && raycast.num3 == correctNum3 && raycast.num4 == correctNum4)
         {
             isCorrect = true;
         }
-
-        else
-        {
-            isCorrect = false;
-        }
-
     }
 
-    void setText(GameObject obj, string text)
+    public void setText(GameObject obj, string text)
     {
         obj.GetComponent<TMP_Text>().text = text;
     }

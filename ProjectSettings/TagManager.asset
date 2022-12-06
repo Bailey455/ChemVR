@@ -28,6 +28,8 @@ TagManager:
   - down3
   - down4
   - next_button
+  - keep_trying
+  - next_question
   layers:
   - Default
   - TransparentFX

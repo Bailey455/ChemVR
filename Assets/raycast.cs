@@ -13,6 +13,10 @@ public class raycast : MonoBehaviour
     public GameObject num2Box;
     public GameObject num3Box;
     public GameObject num4Box;
+    public GameObject try_again;
+    public GameObject good_job;
+
+    public GameObject equation; 
 
     public static int num1;
     public static int num2;
@@ -62,7 +66,7 @@ public class raycast : MonoBehaviour
                     }
 
             //check for ending
-            else if (hit.collider.gameObject.CompareTag("exit"))
+            else if (hit.collider.gameObject.CompareTag("exit") && OVRInput.GetDown(OVRInput.Button.One))
             {
                 Application.Quit();
                 //Debug.Log("hit exit button");
@@ -198,7 +202,7 @@ public class raycast : MonoBehaviour
                 if (num2 > 0)
                     num2 -= 1;
                 else
-                    num2 = 0;
+                    num2 = 0; 
                 setText(num2Box, num2);
                 
             }
@@ -220,16 +224,43 @@ public class raycast : MonoBehaviour
                     num4 = 0;
                 setText(num4Box, num4);
             }
+
+            else if (formulas.isCorrect == true && OVRInput.GetDown(OVRInput.Button.One) && hit.collider.gameObject.CompareTag("next_button"))
+            {
+                equation.SetActive(false);
+                good_job.SetActive(true);
+
+            }
+            
+
+            else if(formulas.isCorrect == false && OVRInput.GetDown(OVRInput.Button.One) && hit.collider.gameObject.CompareTag("next_button"))
+            {
+                equation.SetActive(false);
+                try_again.SetActive(true);
+            }
+
+            else if (hit.collider.gameObject.CompareTag("keep_trying") && OVRInput.GetDown(OVRInput.Button.One))
+            {
+                equation.SetActive(true);
+                good_job.SetActive(false);
+                try_again.SetActive(false);
+            }
+            else if(hit.collider.gameObject.CompareTag("next_question") && OVRInput.GetDown(OVRInput.Button.One))
+            {
+                equation.SetActive(true);
+                try_again.SetActive(false);
+                good_job.SetActive(false);
+
+                num1 = 0;
+                num2 = 0; 
+                num3 = 0;
+                num4 = 0;
+                setText(num1Box, num1);
+                setText(num2Box, num2);
+                setText(num3Box, num3);
+                setText(num4Box, num4);
+            }
         }
-
-        //CHEMICAL EQUATIONS SECTION
-        //incrementing the numbers for chemical equations
-
-         /*else if(hit.collider.gameObject.CompareTag("next_button") && OVRInput.GetDown(OVRInput.Button.One) && formulas.isCorrect == true)
-        {
-
-        }
-        */
     }
 
     void setText(GameObject obj, int num)
