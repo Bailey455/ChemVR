@@ -53,18 +53,11 @@ public class OVRProjectConfig : ScriptableObject
 		MAX = 2
 	}
 
-	public enum SpatialAnchorsSupport
-	{
-		Disabled = 0,
-		Enabled = 1,
-	}
-
 
 	public List<DeviceType> targetDeviceTypes = new List<DeviceType> {DeviceType.Quest, DeviceType.Quest2};
 	public bool allowOptional3DofHeadTracking = false;
 	public HandTrackingSupport handTrackingSupport = HandTrackingSupport.ControllersOnly;
 	public HandTrackingFrequency handTrackingFrequency = HandTrackingFrequency.LOW;
-	public SpatialAnchorsSupport spatialAnchorsSupport = SpatialAnchorsSupport.Disabled;
 
 	public bool disableBackups = true;
 	public bool enableNSCConfig = true;
@@ -145,7 +138,6 @@ public class OVRProjectConfig : ScriptableObject
 			projectConfig.allowOptional3DofHeadTracking = false;
 			projectConfig.handTrackingSupport = HandTrackingSupport.ControllersOnly;
 			projectConfig.handTrackingFrequency = HandTrackingFrequency.LOW;
-			projectConfig.spatialAnchorsSupport = SpatialAnchorsSupport.Disabled;
 			projectConfig.disableBackups = true;
 			projectConfig.enableNSCConfig = true;
 			projectConfig.skipUnneededShaders = false;
