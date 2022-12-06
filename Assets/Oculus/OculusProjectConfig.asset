@@ -16,6 +16,7 @@ MonoBehaviour:
   allowOptional3DofHeadTracking: 0
   handTrackingSupport: 0
   handTrackingFrequency: 0
+  spatialAnchorsSupport: 0
   disableBackups: 1
   enableNSCConfig: 1
   securityXmlPath: 

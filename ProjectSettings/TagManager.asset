@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Element
+<<<<<<< HEAD
   - continueButton
   - group1
   - back
@@ -30,6 +31,8 @@ TagManager:
   - next_button
   - keep_trying
   - next_question
+=======
+>>>>>>> main
   layers:
   - Default
   - TransparentFX

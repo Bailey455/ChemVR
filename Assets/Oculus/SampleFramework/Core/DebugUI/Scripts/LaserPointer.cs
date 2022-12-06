@@ -1,10 +1,16 @@
 /************************************************************************************
 
-Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.  
+Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.
 
+<<<<<<< HEAD
 See SampleFramework license.txt for license terms.  Unless required by applicable law 
 or agreed to in writing, the sample code is provided �AS IS� WITHOUT WARRANTIES OR 
 CONDITIONS OF ANY KIND, either express or implied.  See the license for specific 
+=======
+See SampleFramework license.txt for license terms.  Unless required by applicable law
+or agreed to in writing, the sample code is provided “AS IS” WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied.  See the license for specific
+>>>>>>> main
 language governing permissions and limitations under the license.
 
 ************************************************************************************/

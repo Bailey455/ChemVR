@@ -8,36 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
-  - enabled: 1
-    path: Assets/Scenes/nonMetals.unity
-    guid: 8a9026b7329c6374c98c65c6684c6ad1
-  - enabled: 1
-    path: Assets/Scenes/Halogen.unity
-    guid: c772c7a8dd279be408b85edbbec11f60
-  - enabled: 1
-    path: Assets/Scenes/noblegas.unity
-    guid: a374af5b72a0433489a3b42746aeeb25
-  - enabled: 1
-    path: Assets/Scenes/lanthanide.unity
-    guid: d38e5cef0ce826a49a4d9f454d569fe2
-  - enabled: 1
-    path: Assets/Scenes/actinide.unity
-    guid: 1db7055cf1e8c7b49bf83bf646daacad
-  - enabled: 1
-    path: Assets/Scenes/alkaliMetal.unity
-    guid: 68a3cbdae3a061140bec7b1009d67ec5
-  - enabled: 1
-    path: Assets/Scenes/akalineEarth.unity
-    guid: 15178207314799546b16b51de7274514
-  - enabled: 1
-    path: Assets/Scenes/transitionalMetal.unity
-    guid: 4a24bc623711d64428b035d783150977
-  - enabled: 1
-    path: Assets/Scenes/basicMetal.unity
-    guid: aa3c18d72c82bdd4cb1136b30666d8e9
-  - enabled: 1
-    path: Assets/Scenes/Semimetal.unity
-    guid: 3e66b53138b67644a9ccba143e0b2f01
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b0caae356db1bee4c802a66fcf044d94, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 968452ba38170de41947b498e3ded3b6, type: 2}
