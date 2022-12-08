@@ -460,14 +460,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759141521}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
   m_LocalPosition: {x: 299.44, y: 824.16, z: 7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1058891527}
   m_Father: {fileID: 0}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!1 &830151056
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,12 +626,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   test: {fileID: 0}
-  look: {fileID: 0}
   elements: {fileID: 0}
   num1Box: {fileID: 0}
   num2Box: {fileID: 0}
   num3Box: {fileID: 0}
   num4Box: {fileID: 0}
+  try_again: {fileID: 0}
+  good_job: {fileID: 0}
+  equation: {fileID: 0}
 --- !u!1 &993614549
 GameObject:
   m_ObjectHideFlags: 0
@@ -2445,12 +2447,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   test: {fileID: 0}
-  look: {fileID: 0}
   elements: {fileID: 0}
   num1Box: {fileID: 0}
   num2Box: {fileID: 0}
   num3Box: {fileID: 0}
   num4Box: {fileID: 0}
+  try_again: {fileID: 0}
+  good_job: {fileID: 0}
+  equation: {fileID: 0}
 --- !u!1001 &1936957962
 PrefabInstance:
   m_ObjectHideFlags: 0
